@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec1{
+    width: 100%;
+    height: 107vh;
+    background-image: url(blue_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.color{
+    border-bottom: 3px solid mediumpurple;
+}
+.nav img{
+    width: 100px;
+    height: 50px;
+    margin-left: 70px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.home a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 50px;
+}
+.butn{
+    margin-right: 100px;
+}
+.butn button{
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: gray;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.fix{
+    width: 700px;
+    height: 700px;
+    margin-top: 60px;
+}
+.img{
+    position: relative;
+}
+.move{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    height: 400px;
+    z-index: 1;
+}
+.move2{
+    position: absolute;
+    left: 80px;
+    top: 410px;
+    z-index: 2;
+}
+.h1{
+    margin-left: 100px;
+    font-size: 200%;
+    color: gray; 
+}
+.h11{
+    margin-bottom: 20px;
+    font-size: 200%;
+}
+.move3{
+    position: absolute;
+    top: 650px;
+    left: -300px;
+    height: 10px;
+}
+.sec2{
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    margin-top: 140px;
+    margin-left: 150px;
+}   
+.right h3{
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+.middle{
+    margin-top: 270px;
+    margin-left: 10px;
+}
+.middle img{
+    margin-left: 40px;
+    z-index: 2;
+}
+.middle h3{
+    margin-left: 70px ;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+.p2{
+    margin-left: 35px;
+}
+.left{
+    margin-top: 550px;
+}
+.left img{
+    z-index: 2;
+}
+.left h3{
+    margin-left: 70px ;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+.move4 img{
+    position: relative;
+    width: 994px;
+    margin-left: 330px;
+    margin-top: 5px;
+    z-index: -5;   
+}
+.why{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.why img{
+    position: absolute;
+    margin-right: 600px;
+    bottom: 5px;
+    /* margin-bottom: 100px; */
+}
+.why div{
+    position: absolute;
+    margin-right: 600px;
+    bottom: 100px;
+    right: 250px;
+    color: white; 
+}
+.why div h2{
+    font-size: 250%;
+}
+.sec3{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec3 h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+}
+.sec3 p{
+    text-align: center;
+    color: gray;
+}
+.left-div img{
+    margin-left: 250px;
+}
+.right-div img{
+    margin-right:250px ;
+}
+.sce4{
+    margin-top: 5px;
+}
+.img2{
+    position: relative;
+}
+.move11{
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+.fix2{
+    width: 100%;
+    height: 420px;
+}
+.app{
+    position: absolute;
+    display: flex;
+    top: 2450px;
+    left: 100px;
+    
+}
+
+.apple button{
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: gray;
+    height: 20px;
+    border: none;
+}
+.apple button p{
+    margin-left: 4px;
+}
+.play button{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: gray;
+    height: 20px;
+    border: none;
+}
+.play button p{
+    margin-left: 4px;
+}
+.social{
+    position: absolute;
+    top: 2520px;
+    left: 100px;
+}
+.social img{
+    margin-left: 10px;
+}
+.end{
+    position: absolute;
+    top: 2580px;
+    left: 40px;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+
